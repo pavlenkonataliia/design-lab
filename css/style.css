@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+*, 
+*::before, 
+*::after{
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	max-width: 1920px;
+	background: #fff;
+	font: 300 14px/1.8  Lato, sans-serif;
+	color: #3c3c3c;
+	margin: 0 auto;
+}
+
+h1,h2,h3{
+	margin: 0;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+h1{
+	margin-bottom: 15px;
+	font-size: 54px;
+	letter-spacing: 1.8px;
+	padding: 90px 0 50px;
+	
+}
+
+h2{
+	font-size: 34px;
+	margin: -17px auto 0;
+	background: #fff;
+	display: block;
+	width: 420px;
+}
+h3{
+	font-size: 20px;
+	padding: 36px 0 36px;
+}
+
+p{
+	margin: 0;	
+}
+
+.ba-container{
+	max-width: 903px;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.ba-section-intro{
+	background: #aeb8cd url(../img/hero-bg.jpg.png);
+	/* background-position: 50%; */
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 280px 0 110px;
+	/* min-height: 100vh; */
+	margin-bottom: 135px;
+
+}
+
+.ba-section-intro p{
+	text-transform: uppercase;
+	font-size: 15px;
+	padding-bottom: 240px;
+
+}
+
+.ba-container-section{
+	border: 2px solid #3c3c3c;
+	padding: 0 171px 90px 179px;
+	margin: 120px 0 116px;
+}
+
+.ba-container-col svg{
+	margin-top: 110px;	
+}
+
+
+.ba-container-about{
+	padding: 0 0 50px;
+}
+
+.ba-container-about p{
+	padding-top: 30px;
+}
+
+.ba-section-servises{
+	background: #aeb8cd url(../img/services.jpg.png);
+	color: #fff;
+	padding: 10px 0 103px;
+}
+
+.ba-container-servises{
+	border: 2px solid #fff;
+	margin-bottom: 0;
+	
+}
+
+.ba-container-servises h2{
+	background: none;
+}
+
+.ba-container-servises p{
+	padding-top: 60px;
+	
+}
+
